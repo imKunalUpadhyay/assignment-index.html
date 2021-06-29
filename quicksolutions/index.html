@@ -17,12 +17,12 @@ h1 {
 <style>
 .fa {
   padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
+  font-size: 20px;
+  width: 20px;
+  
   text-decoration: none;
   margin: 5px 2px;
-  border-radius: 50%;
+  border-radius: 100%;
 }
 
 .fa:hover {
@@ -262,6 +262,39 @@ h1 {
 <a href="#" class="fa fa-yahoo"></a>
 <a href="#" class="fa fa-reddit"></a>
 </div>
+
+
+
+<div style="margin-left: 100px; margin-right: 100px; margin-top: 100px; margin-bottom: 50px;">
+  <form action="userinfo.php">
+     <div class="form-group">
+    <label for="text">Username</label>
+    <input type="Username" name="username" class="form-control" placeholder="Enter Username" id="pwd">
+  </div>
+  <div class="form-group">
+    <label for="email" class="text-center">Email address:</label>
+    <input type="email" name="email" class="form-control" placeholder="Enter email" id="email">
+  </div>
+
+   <div class="form-group">
+    <label for="Mobile">Mobile no.</label>
+    <input type="Mobile" name="mobile" class="form-control" placeholder="Enter Mobile no." id="">
+  </div>
+
+  <div class="form-group"  >
+    <label for="text">Query</label>
+    <input type="text" name="query" class="form-control" placeholder="Enter your Query" id="" style="height: 100px;">
+  </div>
+ 
+  <div class="form-group form-check">
+    <label class="form-check-label">
+      <input class="form-check-input" type="checkbox"> Remember me
+    </label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+
 
 
 
