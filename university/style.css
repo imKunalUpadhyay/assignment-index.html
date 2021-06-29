@@ -1,15 +1,14 @@
   .top {
-  / background-image: url(https://wallpapercave.com/wp/wp3429906.png);
+ /* background-image: url(https://wallpapercave.com/wp/wp3429906.png);
  
 background-position: center;
   background-repeat: no-repeat;
- */ 
+  */
+ 
 }
 
 .head {
-    /*width: 1200px;
-    height: 170px;
-    */
+   
     margin: 0 auto;
 }
 .logo {
@@ -61,7 +60,8 @@ background-position: center;
 
 
 #mu-abtus-counter {
-  background-image: url("https://edsurge.imgix.net/uploads/post/image/13162/Online_education_abstract-1583360041.jpg?auto=compress%2Cformat&w=640&h=260&fit=crop");
+  
+
   background-repeat: no-repeat;
   background-size: 100%;
   display: inline;
@@ -74,8 +74,9 @@ background-position: center;
   float: left;
   width: 100%;
 }
-#mu-abtus-counter .mu-abtus-counter-area .mu-abtus-counter-single {
-  border-right: 2px solid #888;
+
+ #mu-abtus-counter .mu-abtus-counter-area .mu-abtus-counter-single {
+ 
   display: inline;
   float: left;
   text-align: center;
@@ -177,10 +178,6 @@ html,body
 
 
 
-
-/*==================
- TEACHER SECTION
-====================*/
 #mu-our-teacher {
   display: inline;
   float: left;
