@@ -312,7 +312,7 @@ html,body
   transition: all 0.5s;
 }
 #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget ul li a:before {
-  content: "\f101";
+  content: ;
   font-family: FontAwesome;
   left: 0;
   position: absolute;
